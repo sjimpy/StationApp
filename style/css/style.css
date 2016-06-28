@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: yellow;
+}
+
+#alles{
+    margin-top: 10px;
+    border: 3px solid black;
+    height: 840px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1{
+    margin: 10px;
+}
+
+h4{
+}
+
+#input{
+    width: 90%;
+    margin: 5px;
+}
+
+nav{
+    height:782px; 
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+.angular-google-map-container { 
+    float: right;
+    height: 800px; 
+    width: 79.5%;
+    border: 1px solid black;
+}
+
+#bar{
+    float: left;
+    width: 20%;
+}
+
+
+
+.stationsList {
+  margin: 10px 0px;
+}
+
+.stationsList-row {
+  color:black;
+  background: lightgray;
+  border-bottom: 1px dashed white;
+  width: 95%;
+}
+
+.stationsList-row.ng-leave.ng-leave-active,
+.stationsList-row.ng-move,
+.stationsList-row.ng-enter {
+  opacity:0;
+  max-height:0;
+}
+
+.stationsList-row.ng-leave,
+.stationsList-row.ng-move.ng-move-active,
+.stationsList-row.ng-enter.ng-enter-active {
+  opacity:1;
+  max-height:30px;
+}
+
+.stationsList-row.active {
+  color:yellow;
+  margin-left: 15px;
+}
+input, .stationsList-row {
+  padding:5px;
+  box-sizing: border-box;
+}
+
+#hoeveel{
+    margin-left: 5px;
+}
